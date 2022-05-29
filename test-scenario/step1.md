@@ -31,7 +31,7 @@ kubernetes-tutorial@1.0.0 /root/kubernetes-tutorial
 
 We have set the main file to be index.js, so create a file named index.js inside the kubernetes-test directory. Insert the following code in index.js to setup the express server and API endpoints:
 
-```
+~~~
 var express = require('express');
 var app = express();
 
@@ -50,4 +50,4 @@ app.get('/hello', function (req, res) {
 
 app.listen(process.env.PORT || 3001);
 module.exports = app;
-```
+~~~
