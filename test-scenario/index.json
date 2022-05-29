@@ -54,8 +54,8 @@
     }
   },
       "environment": {
-        "hidefinish": false,
-        "uilayout": "vscode-terminal-split"
+        "hideHiddenFiles": false,
+        "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
