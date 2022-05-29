@@ -52,4 +52,4 @@ app.listen(process.env.PORT || 3001);
 module.exports = app;
 ```
 
-Next, we will craete a dockerfile and push it to Docker Hub.
+Next, we will build the docker image.

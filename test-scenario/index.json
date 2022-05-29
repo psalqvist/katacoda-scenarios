@@ -58,6 +58,7 @@
         "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "ubuntu:2004",
+    "dockerimage": "minikube-running:1.20"
   }
 }
