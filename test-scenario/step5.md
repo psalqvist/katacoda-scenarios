@@ -32,7 +32,7 @@ Now we can run `kubectl get svc` to get information regarding our service. This 
 kubernetes-tutorial-service   LoadBalancer   10.103.164.36   <pending>     5000:31111/TCP   34h
 ```
 
-Run `minicube service kubernetes-tutorial-service`. The output should now give you a column named `URL`. This shouuld mean that we can reach our endpoints using this URL.
+Run `minikube service kubernetes-tutorial-service`. The output should now give you a column named `URL`. This shouuld mean that we can reach our endpoints using this URL.
 
 Try this by running `curl <url>` from the terminal, which should give us the following: `{success: true,}`
 
