@@ -23,7 +23,11 @@ CMD [ "node", "index.js" ]
 
 Here we set the working directory, copy the dependencies, install dependencies, copy our index.js, select port and finally run the command `node index.js`.
 
-Now it is time to craete the docker image by running `docker build -t <Docker Hub username>/kubernetes-tutorial .`. It is important to use your exact **Docker Hub username**, otherwise we won't be able to push the image to Docker Hub.
+Now it is time to craete the docker image by running:
+
+`docker build -t <Docker Hub username>/kubernetes-tutorial .`
+
+It is important to use your exact **Docker Hub username**, otherwise we won't be able to push the image to Docker Hub.
 
 Let's login to docker by running `docker login` from the terminal and enter your username and password.
 
