@@ -34,7 +34,7 @@ kubernetes-tutorial-service   LoadBalancer   10.103.164.36   <pending>     5000:
 
 Run `minikube service kubernetes-tutorial-service`. The output should now give you a column named `URL`. This shouuld mean that we can reach our endpoints using this URL.
 
-Try this by running `curl <url>` from the terminal, which should give us the following: `{success: true,}`
+Try this by running `curl <url>` from the terminal, which should give us the following: `{success: true}`
 
 This means we have deployed our application to Kubernetes succesfully, congratulations!
 
