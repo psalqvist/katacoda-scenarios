@@ -1,6 +1,6 @@
 ## Build docker image
 
-The second step will be to build a docker image.
+The second step will be to build a docker image and push it to Docker Hub.
 
 First, check that docker is installed by running `docker -v`.
 
